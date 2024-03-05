@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>685</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Select Your Login Type</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(77, 138, 166);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="login_button_admin">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>150</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Employee</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login_button_customer">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Customer</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

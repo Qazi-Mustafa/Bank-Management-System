@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>612</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(77, 138, 166);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="loan">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Loan Type</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Loan amount</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>previous_loan</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loan_amount_line">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+
+border:1px solid white;
+
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Apply_loan_button">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>290</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+border:1px solid white;
+</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="loan_type_combo">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="loan_table">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>371</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>loan_id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>loan_amount</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>loan_status</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>612</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

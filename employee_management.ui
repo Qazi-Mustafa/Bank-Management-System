@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(77, 138, 166);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>751</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Employees</string>
+    </property>
+    <widget class="QTableWidget" name="employee_table">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>401</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>employee_id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>employee_name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>employee_email</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>dept_id</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="add">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>490</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
